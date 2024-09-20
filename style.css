@@ -102,7 +102,6 @@ footer{
 
 footer div{
     display: flex;
-    align-items: center;
 }
 
 footer div .logo{
@@ -159,7 +158,7 @@ footer p{
     .sidebar {
         width: 30%;
     }
-    
+
     footer div .logo, 
     footer div .menu_footer, 
     footer div .footer_some {
@@ -174,4 +173,8 @@ footer p{
         padding-left: 30px;
     }
 
+    header nav ul li{
+        width: 100%;
+        padding: 0;
+    }
 }
